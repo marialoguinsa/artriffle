@@ -1,0 +1,225 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    // Redirect to login if not logged in
+    header("Location: log-in.php"); // Redirect to login page
+    exit();
+}
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Artriffle Local Art Store </title>
+	<link rel="stylesheet" type="text/css" href="design.css">
+	<link rel="icon" type="image/icon" href="PICTURES/iconlogo.png">
+</head>
+<body style="margin: 0; overflow-x: hidden;">
+	<div class="header-home">
+		<div class="logo-1">
+			<img src="PICTURES/artlog1.jpg" style="width: 25%; height: auto;">
+		</div>
+		<div class="header-text">
+			<h1><i>Your one-stop destination for unique, locally-crafted artistic treasures.</i></h1>
+		</div>
+	</div>
+	<div class="menu" style="background-color: #800000">
+		<div class= "sulodmenu" > 
+		<a href="home.php" >HOME</a>
+		<a href="mproducts.php" target="_self">PRODUCTS</a>
+		<a href="mservices.php" target="_self">SERVICES</a>
+		<a href="mabout-us.php" target="_self">ABOUT US</a>
+		<a href="mcontact-us.php" target="_self">CONTACT US</a>
+
+		</div>
+		 <div class="menu-right">
+			<a href="cart.php" class="cart-icon" target="_self"><img src="PICTURES/cart.png" style=" width: 35px; height: 35px;"></a>
+			
+			<div class="search-container">
+				<input type="text" placeholder="Search" class="search-bar">
+				<button class="search-button"><img src="PICTURES/search.png" style="width: 20px; height: 20px;"></button>
+			</div>
+		</div>
+	
+	</div>
+	<div class="center-details">
+	<h2 style="color: maroon; ">Welcome to Artriffle, <?php echo $_SESSION['username']; ?>!</h2>
+		<video  autoplay loop muted plays-inline>
+			<source src="PICTURES/art.mp4" type="video/mp4">
+		</video>
+		
+		<div class="overlay">
+			<div class="text">
+				<h2><i>Explore fresh creations by our talented local artisans.</i></h2>
+			</div>
+		<div class="button">
+			<button class="rounded-button" onclick = "location.href = 'mproducts.php'">SHOP NOW</button>
+		</div>
+		</div>
+	</div>
+	<div class="about-us-center">
+		<div class="about-us-text">
+			<center> <h1><i>OUR STORY</i></h1></center>
+			<p>In Artriffle, local artists unite to transform recycled materials into unique, handcrafted treasures. With a mission to become the leading online arts marketplace, Artriffle offers art lovers an effortless shopping experience, connecting them with the heart of creativity and community support. Every piece tells a story, every purchase supports a dream. Join us at Artriffle, where art meets heart and your one-stop destination for unique, locally crafted artistic treasures.</p>
+			<div class="button">
+			<button class="see-more" onclick = "location.href = 'mabout-us.php'">SEE MORE</button>
+		</div>
+		</div>
+		<div class="about-us-image"> 
+			<img src="PICTURES/brushes.jpg" style="width: 700px; height: 500px">
+		</div>
+	</div>
+
+	<center>
+
+		<iframe style=" padding-top: 5%;" width="960" height="560" src="https://www.youtube.com/embed/vNaJKHcn6NY?si=HQm0EnA3PeY6uhv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<iframe width="960" height="560" src="https://www.youtube.com/embed/4B7l3VsqFN0?si=7zYqPQG6A1Yw3xvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<h1 style="padding-top: 5%;">Today's <span style="color: #800000">Deals</span> </h1>
+	<div class="acon">
+		
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/wctube.png"></div>
+				<div class="acontent">
+					<h4 style="font-size: 15px;">Sennelier Artist Watercolor Iridiscent Colors - 12 Tubes and 1 brush</h4>
+					<h2>PHP 2,680.00</h2>
+					<a href="martkits.php" class="cart">Shop Now</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/wcwood.png"></div>
+				<div class="acontent">
+					<h4 style="font-size: 15px;">Schmincke Horadam Artist Watercolour Wooden Box - 60 x 1/2 pans</h4>
+					<h2>PHP 2,278.00</h2>
+				
+					<a href="martkits.php" class="cart">Shop Now</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/kaerell.jpg"></div>
+			
+				<div class="acontent">
+					<h4>Raphael 8224 Long Rigger Blue Handle - 0</h4>
+					<h2>PHP 290.00</h2>
+					
+					<a href="martkits.php" class="cart">Shop Now</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/brush.png"></div>
+				<div class="acontent">
+					<h4 style="font-size: 23px;">Raphael 293 Oleo Spalter Brush - 40</h4>
+					<h2>PHP 700.00</h2>
+					
+					<a href="martkits.php" class="cart">Shop Now</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/wcfrench.png"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Sennelier Artist Watercolour French Aqua Mini - 8 half pans + 1 brush</h4>
+					<h2>PHP 1,480.00</h2>
+					
+					<a href="martkits.php" class="cart">Shop Now</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/acpaint.png"></div>
+				<div class="acontent">
+					<h4>Sennelier Abstract Acrylic - 8-Color Set 21ml</h4>
+					<h2>PHP 1,190.00</h2>
+					
+					<a href="martkits.php" class="cart"> Shop Now</a>
+				</div>
+		</div>
+	
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/skbook.png"></div>
+				<div class="acontent">
+					<h4>Etchr Lab Sketchbook - Landscape - A6 - Cold Press</h4>
+					<h2>PHP 1,148.00</h2>
+					
+					<a href="martkits.php" class="cart">Shop Now</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/wcpad.png"></div>
+				<div class="acontent">
+					<h4>Etchr Lab Wood Pulp Paper Block (cold Press) - A4</h4>
+					<h2>PHP 1,018.00</h2>
+					
+					<a href="martkits.php" class="cart">Shop Now</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/pastel.png"></div>
+				<div class="acontent">
+					<h4>Sennelier Extra Soft Pastels 120 Half Stick - Paris Collection Set</h4>
+					<h2>PHP 1,370.00</h2>
+					
+					<a href="martkits.php" class="cart">Shop Now</a>
+				</div>
+		</div>
+		
+	</div>
+	</center>
+
+	<center>
+		<div class="desc">
+			<center>
+		<h1> Premium <span>Fine Art </span>Supply in the Philippines</h1>
+		<p>Artriffle Philippines is committed to sourcing the finest art materials from around the world and bringing them to the Philippines. We are proud official distributors and retailers of the brands we carry, including Shin Han Art from South Korea, Turner Color Works, Holbein Artists’ Colors and Awagami Papers from Japan, Escoda Brushes and Montana Colors Graffiti Supplies from Spain, Golden Paints from the USA, Kremer Pigments from Germany and Khadi Fine Art Papers from India.</p>
+			</center>
+		</div>
+
+
+
+
+	</center>
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="footer" style="margin-bottom: 0; margin-top: 100px;">
+		<div class="socials">
+			<a href="https://www.facebook.com/profile.php?id=61568542748232" target="_blank">
+				<img src="PICTURES/fb.png">
+			</a>
+			<a href="https://www.instagram.com/artriffleco/" target="_blank">
+				<img src="PICTURES/ig.png">
+			</a>
+			<a href="https://www.youtube.com/channel/UCp7XLixRCQbq2u0mJgRjvFw" target="_blank">
+				<img src="PICTURES/yt.png">
+			</a>
+			<a href="https://www.linkedin.com/in/artriffle-co-246900338/" target="_blank">
+				<img src="PICTURES/li.png">
+			</a>
+			<a href="https://www.tiktok.com/@artriffleco?is_from_webapp=1&sender_device=pc" target="_blank">
+				<img src="PICTURES/tt.png">
+			</a>
+
+		</div>
+		<div class="footer-text">
+			<h1> &copy; 2024 Artriffle Art Company. All rights reserved.</h1>
+		</div>
+	</div>
+</body>
+</html>

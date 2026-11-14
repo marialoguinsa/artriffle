@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Page</title>
+	<title>Artriffle Local Art Store </title>
+	<link rel="stylesheet" type="text/css" href="design.css">
+	<link rel="icon" type="image/icon" href="PICTURES/iconlogo.png">
+</head>
+<body style="background-color: #FBFFE7; margin: 0; overflow-x: hidden; ">
+	<div class="header-two">
+		<div class="logo-2">
+			<img src="PICTURES/logo-2.png" style="width: 150px; height: auto;">
+		</div>
+		<div class="three-logos">
+			<div class="three-logos-logo">
+				<div class="one-logo">
+					<img src="PICTURES/paintbrush.png" style="width: 60px; height: 60px;">
+				</div>
+				<div class="three-logos-text">
+					<h1><i>Supporting Local Artist</i></h1>
+				</div>
+			</div>
+			<div class="three-logos-logo">
+				<div class="two-logo">
+					<img src="PICTURES/plant.png" style="width: 60px; height: 60px;">
+				</div>
+				<div class="three-logos-text">
+					<h1><i>Eco-Friendly</i></h1>
+				</div>
+			</div>
+			<div class="three-logos-logo">
+				<div class="three-logo">
+					<img src="PICTURES/verified.png" style="width: 60px; height: 60px;">
+				</div>
+				<div class="three-logos-text">
+					<h1><i>Certified Trusted Shop</i></h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu" style="background-color: #800000">
+		<div class= "sulodmenu" > 
+		<a href="home.php">HOME</a>
+		<a href="mproducts.php" target="_self">PRODUCTS</a>
+		<a href="mservices.php" target="_self">SERVICES</a>
+		<a href="mabout-us.php" target="_self">ABOUT US</a>
+		<a href="mcontact-us.php" target="_self" style="border-bottom: 4px solid white;">CONTACT US</a>
+		</div>
+		 <div class="menu-right">
+			<a href="cart.php" class="cart-icon" target="_self"><img src="PICTURES/cart.png" style=" width: 35px; height: 35px;"></a>
+			
+			<div class="search-container">
+				<input type="text" placeholder="Search" class="search-bar">
+				<button class="search-button"><img src="PICTURES/search.png" style="width: 20px; height: 20px;"></button>
+			</div>
+		</div>
+	
+	</div>
+
+	<section class="contact">
+		<div class="contactus">
+			<h2>CONTACT US</h2>
+		</div>
+		<div class="cusulod">
+			<div class="cuform">
+				<form>
+					<h2>Reach us directly by messaging below:</h2>
+					<center>
+					<div class="inputbox">
+						<input type="text" name="name" placeholder="Full Name*">
+					</div>
+					<div class="inputbox">
+						 <input type="email" name="email" placeholder="Email*">
+					</div>
+					<div class="inputbox">
+						 <input type="tel" name="contactnum" placeholder="Contact Number*">
+					</div>
+					<div class="inputbox">
+						<textarea placeholder="Message"></textarea>
+					</div>
+
+					<div class="inputbox">
+						<button style="text-align: center;">SEND</button>
+					</div>
+					</center>
+					 
+				</form>
+			</div>
+			<div class="cuinfo">
+					<div class="cubox">
+						<div class="cuicon"> <img src="PICTURES/map.png"></div>
+						<div class="cutext">
+							<h3>Address</h3>
+							<p>Adelfa St. Don Luis Village, City of Mati,<br> Davao Oriental</p>
+						</div>
+					</div>
+					<div class="cubox">
+						<div class="cuicon"><img src="PICTURES/call.png"></div>
+						<div class="cutext">
+							<h3>Phone</h3>
+							<p>+ 63 (910) 868 2537</p>
+						</div>
+					</div>
+					<div class="cubox">
+						<div class="cuicon"><img src="PICTURES/email.png"></div>
+						<div class="cutext">
+							<h3>Email</h3>
+							<p>artriffle@gmail.com</p>
+						</div>
+					</div>
+					<div class="cubox">
+						<div class="cuicon"><img src="PICTURES/globe.png"></div>
+						<div class="cutext">
+							<h3>Website</h3>
+							<p>www.artriffle.com</p>
+						</div>
+					</div>
+
+					<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980.2196672929565!2d126.2078481386746!3d6.9573895982607645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fbc90dff396d25%3A0x4d755e770ff1015!2sAdelfa%20Street%2C%20Mati%2C%20Davao%20Oriental!5e0!3m2!1sen!2sph!4v1733381766074!5m2!1sen!2sph" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	<div class="footer" style="margin-bottom: 0; margin-top: 100px;">
+		<div class="socials">
+			<a href="https://www.facebook.com/profile.php?id=61568542748232" target="_blank">
+				<img src="PICTURES/fb.png">
+			</a>
+			<a href="https://www.instagram.com/artriffleco/" target="_blank">
+				<img src="PICTURES/ig.png">
+			</a>
+			<a href="https://www.youtube.com/channel/UCp7XLixRCQbq2u0mJgRjvFw" target="_blank">
+				<img src="PICTURES/yt.png">
+			</a>
+			<a href="https://www.linkedin.com/in/artriffle-co-246900338/" target="_blank">
+				<img src="PICTURES/li.png">
+			</a>
+			<a href="https://www.tiktok.com/@artriffleco?is_from_webapp=1&sender_device=pc" target="_blank">
+				<img src="PICTURES/tt.png">
+			</a>
+
+		</div>
+		<div class="footer-text">
+			<h1> &copy; 2024 Artriffle Art Company. All rights reserved.</h1>
+		</div>
+	</div>
+</body>
+</html>

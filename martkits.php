@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Artriffle Local Art Store </title>
+	<link rel="stylesheet" type="text/css" href="design.css">
+	<link rel="icon" type="image/icon" href="PICTURES/iconlogo.png">
+</head>
+<body style="margin: 0; overflow-x: hidden; background-color: antiquewhite;">
+	<div class="header-two">
+		<div class="logo-2">
+			<img src="PICTURES/logo-2.png" style="width: 150px; height: auto;">
+		</div>
+		<div class="three-logos">
+			<div class="three-logos-logo">
+				<div class="one-logo">
+					<img src="PICTURES/paintbrush.png" style="width: 60px; height: 60px;">
+				</div>
+				<div class="three-logos-text">
+					<h1><i>Supporting Local Artist</i></h1>
+				</div>
+			</div>
+			<div class="three-logos-logo">
+				<div class="two-logo">
+					<img src="PICTURES/plant.png" style="width: 60px; height: 60px;">
+				</div>
+				<div class="three-logos-text">
+					<h1><i>Eco-Friendly</i></h1>
+				</div>
+			</div>
+			<div class="three-logos-logo">
+				<div class="three-logo">
+					<img src="PICTURES/verified.png" style="width: 60px; height: 60px;">
+				</div>
+				<div class="three-logos-text">
+					<h1><i>Certified Trusted Shop</i></h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu" style="background-color: #800000">
+		<div class= "sulodmenu" > 
+		<a href="home.php">HOME</a>
+		<a href="mproducts.php" target="_self">PRODUCTS</a>
+		<a href="mservices.php" target="_self">SERVICES</a>
+		<a href="mabout-us.php" target="_self">ABOUT US</a>
+		<a href="mcontact-us.php" target="_self">CONTACT US</a>
+		</div>
+		 <div class="menu-right">
+			<a href="cart.php" class="cart-icon" target="_self"><img src="PICTURES/cart.png" style=" width: 35px; height: 35px;"></a>
+			
+			<div class="search-container">
+				<input type="text" placeholder="Search" class="search-bar">
+				<button class="search-button"><img src="PICTURES/search.png" style="width: 20px; height: 20px;"></button>
+			</div>
+		</div>
+	
+	</div>
+	<div class="title">
+		<h1>ART-KITS</h1>
+	</div>
+	<center>
+	<div class="acon">
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/wctube.png"></div>
+				<div class="acontent">
+					<h4 style="font-size: 15px;">Sennelier Artist Watercolor Iridiscent Colors - 12 Tubes and 1 brush</h4>
+					<h2>PHP 2,680.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Sennelier Artist Watercolor Iridiscent Colors ', 'PICTURES/wctube.png', 2680)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/wcwood.png"></div>
+				<div class="acontent">
+					<h4 style="font-size: 15px;">Schmincke Horadam Artist Watercolour Wooden Box - 60 x 1/2 pans</h4>
+					<h2>PHP 2,278.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Schmincke Horadam Artist Watercolour Wooden Box', 'PICTURES/wcwood.png', 2278)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/gauche.jpg"></div>
+				<div class="acontent">
+					<h4 style="font-size: 15px; margin-bottom:40px;">Sennelier Rive Gauche Fine Oil Paints Set of 8 x 40ml</h4>
+					<h2>PHP 3,190.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Sennelier Rive Gauche Fine Oil Paints Set', 'PICTURES/gauche.jpg', 3190)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/cityscape.jpg"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px; margin-bottom: 45px;">Cityscape Watercolor Set</h4>
+					<h2>PHP 3,780.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Cityscape Watercolor Set', 'PICTURES/cityscape.jpg', 3780)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/landscape.jpg"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px; margin-bottom: 45px;">Landscape Watercolor Set</h4>
+					<h2>PHP 3,580.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Landscape Watercolor Set', 'PICTURES/landscape.jpg', 3580)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/marinescape.jpg"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px; ">Marinescape Watercolor Set</h4>
+					<h2>PHP 3,980.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Marinescape Watercolor Set', 'PICTURES/marinescape.jpg', 3980)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/micron.jpg"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px; margin-bottom: 43px;">Sakura Pigma Micron Pen</h4>
+					<h2>PHP 75.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Sakura Pigma Micron Pen', 'PICTURES/micron.jpg', 75)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/pencil.jpg"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px; margin-bottom: 43px;">Derwent Charcoal Pencil</h4>
+					<h2>PHP 55.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Derwent Charcoal Pencil', 'PICTURES/pencil.jpg', 55)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/charcoal.jpg"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Nitram Charcoal Assortment</h4>
+					<h2>PHP 740.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Nitram Charcoal Assortment', 'PICTURES/charcoal.jpg', 740)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/brush.png"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Raphael 293 Oleo Spalter Brush - 40</h4>
+					<h2>PHP 700.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Raphael 293 Oleo Spalter Brush', 'PICTURES/brush.png', 700)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/kaerell.jpg"></div>
+			
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Raphael 8224 Long Rigger Blue Handle - 0</h4>
+					<h2>PHP 290.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Raphael 8224 Long Rigger Blue Handle', 'PICTURES/kaerell.jpg', 290)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/kaerell1.jpg"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Raphael 8244 Kaerell Filbert Synthetic Brush - 6</h4>
+					<h2>PHP 290.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Raphael 8244 Kaerell Filbert Synthetic Brush', 'PICTURES/kaerell1.jpg', 290)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/testpack.jpg"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Sennelier Artist Watercolor Test Pack - 5 color 10ml tube</h4>
+					<h2>PHP 1,149.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Sennelier Artist Watercolor Test Pack', 'PICTURES/testpack.jpg', 1149)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/wcfrench.png"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Sennelier Artist Watercolour French Aqua Mini - 8 half pans + 1 brush</h4>
+					<h2>PHP 1,480.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Sennelier Artist Watercolour French Aqua Mini', 'PICTURES/wcfrench.png', 20455)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/acpaint.png"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Sennelier Abstract Acrylic - 8-Color Set 21ml</h4>
+					<h2>PHP 1,190.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Sennelier Abstract Acrylic - 8-Color Set', 'PICTURES/acpaint.png', 1190)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/aqboard.png"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Ampersand Aquabord - 1/8 inch - 8"x10"</h4>
+					<h2>PHP 540.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Ampersand Aquabord', 'PICTURES/aqboard.png', 540)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/skbook.png"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Etchr Lab Sketchbook - Landscape - A6 - Cold Press</h4>
+					<h2>PHP 1,148.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Etchr Lab Sketchbook - Landscape - A6 - Cold Press', 'PICTURES/skbook.png', 1148)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/wcpad.png"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Etchr Lab Wood Pulp Paper Block (cold Press) - A4</h4>
+					<h2>PHP 1,018.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Etchr Lab Wood Pulp Paper Block', 'PICTURES/wcpad.png', 1018)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/hotpress.jpg"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px; margin-bottom: 43px;">Sennelier Watercolour Block - Hot Press</h4>
+					<h2>PHP 1,129.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Sennelier Watercolour Block - Hot Press', 'PICTURES/hotpress.jpg', 1129)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/pastel.png"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Sennelier Extra Soft Pastels 120 Half Stick - Paris Collection Set</h4>
+					<h2>PHP 1,370.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('ennelier Extra Soft Pastels 120 Half Stick - Paris Collection Set', 'PICTURES/pastel.png', 1370)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/awagami.jpg"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Awagami A4 Washi Paper Pack (Tanabata) Confetti Inclusions 20-pack</h4>
+					<h2>PHP 495.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Awagami A4 Washi Paper Pack ', 'PICTURES/awagami.jpg', 495)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/paradisefp.jpg"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Paradise AQ Pro Face Paint Palettes (30 Colors)</h4>
+					<h2>PHP 599.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Paradise AQ Pro Face Paint Palettes', 'PICTURES/paradisefp.jpg', 599)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/rebelliousfp.jpg"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Rebelious Face and Body Painting</h4>
+					<h2>PHP 799.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Rebelious Face and Body Painting', 'PICTURES/rebelliousfp.jpg', 799)">Add to Cart</a>
+				</div>
+		</div>
+		<div class="abox">
+			<div class="apic">
+			<img src="PICTURES/wolfefp.jpg"></div>
+				<div class="acontent">
+					<h4 style="font-size: 18px;">Wolfe Essentials Face Paint Palette (12/colors)</h4>
+					<h2>PHP 499.00</h2>
+					<p>In stock</p>
+					<a href="javascript:void(0);" class="cart" onclick="addToCart('Wolfe Essentials Face Paint Palette ', 'PICTURES/wolfefp.jpg', 499)">Add to Cart</a>
+				</div>
+		</div>
+	</div>
+	</center>
+
+	<div class="footer" style="margin-bottom: 0; margin-top: 100px;">
+		<div class="socials">
+			<a href="https://www.facebook.com/profile.php?id=61568542748232" target="_blank">
+				<img src="PICTURES/fb.png">
+			</a>
+			<a href="https://www.instagram.com/artriffleco/" target="_blank">
+				<img src="PICTURES/ig.png">
+			</a>
+			<a href="https://www.youtube.com/channel/UCp7XLixRCQbq2u0mJgRjvFw" target="_blank">
+				<img src="PICTURES/yt.png">
+			</a>
+			<a href="https://www.linkedin.com/in/artriffle-co-246900338/" target="_blank">
+				<img src="PICTURES/li.png">
+			</a>
+			<a href="https://www.tiktok.com/@artriffleco?is_from_webapp=1&sender_device=pc" target="_blank">
+				<img src="PICTURES/tt.png">
+			</a>
+ 
+		</div>
+		<div class="footer-text">
+			<h1> &copy; 2024 Artriffle Art Company. All rights reserved.</h1>
+		</div>
+	</div>
+	<script>
+		function addToCart(productName, productImage, price) {
+	            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+	
+	            let existingProductIndex = cart.findIndex(item => item.name === productName);
+	            if (existingProductIndex !== -1) {
+	                cart[existingProductIndex].quantity += 1; 
+	            } else {
+	                cart.push({
+	                    name: productName,
+	                    image: productImage,
+	                    price: price,
+	                    quantity: 1
+	                });
+	            }
+	
+	            localStorage.setItem('cart', JSON.stringify(cart));
+	            alert('Item added to cart!');
+	        }
+	
+	        function goToCart() {
+	            window.location.href = "cart.php";
+	        }
+	</script>
+	
+</body>
+</html>

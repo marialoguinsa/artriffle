@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Artriffle Local Art Store </title>
+	<link rel="stylesheet" type="text/css" href="design.css">
+	<link rel="icon" type="image/icon" href="PICTURES/iconlogo.png">
+</head>
+<body style="margin: 0; overflow-x: hidden; background-color: #F8ECC5;">
+	<div class="header-two">
+		<div class="logo-2">
+			<img src="PICTURES/logo-2.png" style="width: 150px; height: auto;">
+		</div>
+		<div class="three-logos">
+			<div class="three-logos-logo">
+				<div class="one-logo">
+					<img src="PICTURES/paintbrush.png" style="width: 60px; height: 60px;">
+				</div>
+				<div class="three-logos-text">
+					<h1><i>Supporting Local Artist</i></h1>
+				</div>
+			</div>
+			<div class="three-logos-logo">
+				<div class="two-logo">
+					<img src="PICTURES/plant.png" style="width: 60px; height: 60px;">
+				</div>
+				<div class="three-logos-text">
+					<h1><i>Eco-Friendly</i></h1>
+				</div>
+			</div>
+			<div class="three-logos-logo">
+				<div class="three-logo">
+					<img src="PICTURES/verified.png" style="width: 60px; height: 60px;">
+				</div>
+				<div class="three-logos-text">
+					<h1><i>Certified Trusted Shop</i></h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu" style="background-color: #800000">
+		<div class= "sulodmenu" > 
+		<a href="home.php">HOME</a>
+		<a href="mproducts.php" target="_self">PRODUCTS</a>
+		<a href="mservices.php" style="border-bottom: 4px solid white;" target="_self">SERVICES</a>
+		<a href="mabout-us.php" target="_self">ABOUT US</a>
+		<a href="mcontact-us.php" target="_self">CONTACT US</a>
+		</div>
+		 <div class="menu-right">
+			<a href="cart.php" class="cart-icon" target="_self"><img src="PICTURES/cart.png" style=" width: 35px; height: 35px;"></a>
+			
+			<div class="search-container">
+				<input type="text" placeholder="Search" class="search-bar">
+				<button class="search-button"><img src="PICTURES/search.png" style="width: 20px; height: 20px;"></button>
+			</div>
+		</div>
+	
+	</div>
+	<div class="title">
+		<h1><span style="color: black">EXPLORE OUR </span> SERVICES</h1>
+	</div>
+
+
+	<div class="wrap">
+		<div class="cards">
+			<img src="PICTURES/ar.jpg">
+			<div class="cardinfo">
+				<h1> Art Rentals</h1>
+				<p>Experience the beauty of original art without the commitment of ownership.</p>
+				<a href="martrent.php" target="_blank" class="btn">Read More</a>
+			</div>
+		</div>
+		<div class="cards">
+			<img src="PICTURES/ac.jpg">
+			<div class="cardinfo">
+				<h1> Art Online Courses</h1>
+				<p>Embark on a creative journey with our comprehensive online art course.</p>
+				<a href="martoc.php" target="_blank" class="btn">Read More</a>
+			</div>
+		</div>
+		<div class="cards">
+			<img src="PICTURES/aw.jpg">
+			<div class="cardinfo">
+				<h1> Art-Themed Workshops</h1>
+				<p>Join us for a variety of engaging art workshops designed to inspire and empower your creativity.</p>
+				<a href="martworkshops.php" target="_blank" class="btn">Read More</a>
+			</div>
+		</div>
+		<div class="cards">
+			<img src="PICTURES/as.jpg">
+			<div class="cardinfo">
+				<h1> Art Studios</h1>
+				<p>Discover a space dedicated to your artistic journey. Our art studios provide a serene and inspiring environment for artists of all levels.</p>
+				<a href="martstudios.php" target="_blank" class="btn">Read More</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="footer" style="margin-bottom: 0; margin-top: 100px;">
+		<div class="socials">
+			<a href="https://www.facebook.com/profile.php?id=61568542748232" target="_blank">
+				<img src="PICTURES/fb.png">
+			</a>
+			<a href="https://www.instagram.com/artriffleco/" target="_blank">
+				<img src="PICTURES/ig.png">
+			</a>
+			<a href="https://www.youtube.com/channel/UCp7XLixRCQbq2u0mJgRjvFw" target="_blank">
+				<img src="PICTURES/yt.png">
+			</a>
+			<a href="https://www.linkedin.com/in/artriffle-co-246900338/" target="_blank">
+				<img src="PICTURES/li.png">
+			</a>
+			<a href="https://www.tiktok.com/@artriffleco?is_from_webapp=1&sender_device=pc" target="_blank">
+				<img src="PICTURES/tt.png">
+			</a>
+
+		</div>
+		<div class="footer-text">
+			<h1> &copy; 2024 Artriffle Art Company. All rights reserved.</h1>
+		</div>
+	</div>
+</body>
+</html>
